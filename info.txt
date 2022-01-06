@@ -1,0 +1,12 @@
+print(function_name.__docstring__)          #To print doc_string of a function
+
+In a function you can only print global variable but can not update it..in python we can update a global variable
+inside a function by declaring it with global keyword.
+
+Recursion behave as a stack like in case of factorial.
+
+Lamda is a one line function..
+Sort function can take a function as an argument/input with 'key' keyword.
+
+*args and **kwargs are optional parameters
+

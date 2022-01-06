@@ -1,0 +1,27 @@
+1. read()          = read all data in a file
+2. write()         = write data in a file (if a file is already has some content in it and we open 
+                                            that file in write mode and also write some content in 
+                                            it then the already written content is replaced by the new content)
+
+3. readline()      = read 1 line in a file
+
+f=open("abc.txt")
+here f is file handler or file pointer
+4. for x in f:     = it read all lines in a file one by one
+
+f=open("abc.txt")
+data=f.read()
+5. for x in data:  = it read all data in a file and print the data as characters one by one
+
+6.readlines()      = it read all lines in a file and store them in a list
+
+7.append()         = it adds content in existed file
+e.g, f=opne("abc.txt","a")
+
+8.PLUS Mode :
+    +              = it opens the file in read and write mode
+    e.g, f=opne("abc.txt","r+")
+    data=f.read()
+    f.write("some content....")
+
+ThanksThanksThanks
